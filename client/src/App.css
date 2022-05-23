@@ -1,0 +1,48 @@
+.test {
+    color: red;
+    border: 2px solid red;
+}
+
+#togglePassword:hover {
+    cursor: pointer;
+}
+
+body {
+    line-height: 1.5;
+}
+
+label {
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: .5rem
+}
+
+input {
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+}
+
+button {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    -webkit-appearance: button;
+}
+
+/* *, ::after, ::before {
+    box-sizing: border-box;
+} */
+
+a {
+    /* color: #007bff; */
+    color: black;
+    text-decoration: none;
+    background-color: transparent
+}
+
+a:hover {
+    /* color: #0056b3; */
+    color: grey;
+    /* text-decoration: underline */
+}
